@@ -11,15 +11,18 @@ Projet ST2AIM, EFREI Paris. Construction, entraînement et évaluation d'un Conv
 
 ## Structure du projet
 
-```
-Machine-learning-projet/
-├── data/                 Dataset (téléchargé automatiquement, non versionné)
-├── models/               Modèles entraînés (.keras, non versionnés)
-├── picture/              Courbes et matrices de confusion
-├── main.ipynb            Notebook principal
-├── requirements.txt      Dépendances Python
-└── README.md
-```
+### Préparation du dataset
+
+Le dataset n'est pas versionné sur GitHub. Avant d'exécuter le notebook, il faut créer un dossier `data/` à la racine du projet et y placer le dossier `cats_and_dogs_filtered`, qui contient les images de chats et de chiens. L'arborescence attendue est la suivante :
+
+    data/
+    └── cats_and_dogs_filtered/
+        ├── train/
+        │   ├── cats/
+        │   └── dogs/
+        └── validation/
+            ├── cats/
+            └── dogs/
 
 ## Prérequis
 
