@@ -115,16 +115,10 @@ Ouvrir `main.ipynb` et exécuter les cellules dans l'ordre. L'entraînement sur 
 
 | Modèle | Accuracy | Precision | Recall | F1-score |
 |---|---|---|---|---|
-| Baseline CNN | | | | |
-| Data augmentation | | | | |
-| Dropout + Batch Normalization | | | | |
-| Transfer learning (MobileNetV2) | | | | |
-
-## Travailler à plusieurs
-
-1. Avant de commencer : `git pull`
-2. Une seule personne modifie `main.ipynb` à la fois
-3. Après chaque étape : commit avec un message clair, puis `git push`
+| Baseline CNN | 77,3 % | 76,8 % | 83,5 % | 80,0 % |
+| Data augmentation | 73,5 % | 70,9 % | 87,2 % | 78,2 % |
+| Dropout + Batch Normalization | 78,8 % | 83,1 % | 76,6 % | 79,7 % |
+| Transfer learning (MobileNetV2) | 96,3 % | 95,9 % | 97,3 % | 96,6 % |
 
 ## Sources
 
